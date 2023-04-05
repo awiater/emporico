@@ -1,0 +1,40 @@
+.gdpr_cookie_bar {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    color:#FFF;
+    border-top: 1px solid #d9d9d9;
+    z-index: 9;
+    padding-bottom: 10px;
+}
+
+.gdpr_cookie_bar_description {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.gdpr_cookie_bar .gdpr_cookie_bar_accept {
+    border: none;
+    background-color: #5ddb63;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.gdpr_cookie_bar .gdpr_cookie_bar_settings {
+   	border: none;
+    background-color: #db5d5d;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#gdpr_cookie_bar .gdpr_cookie_bar_option_list_item{
+	padding:0px 5px 0px 5px;
+}

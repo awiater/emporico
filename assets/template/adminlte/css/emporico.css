@@ -1,0 +1,279 @@
+/*
+* Colors
+*/
+:root{
+    -teal:#2ad2c4;
+    -navy:#1f2a44;
+    -lightpink:#ffb6c1;
+    -lightgreen:#d5f5d5;
+}
+.full-height{
+	height:100%!important;
+}
+
+.body-full{
+	min-height:750px!important;
+}
+
+.child-full{
+	min-height:600px!important;
+}
+.CodeMirror {
+  height: auto!important;
+}
+.fontawesome_list{
+	font-family: "Font Awesome 5 Free";
+}
+
+.info-box{
+	min-height: 120px!important;
+}
+
+.info-box-icon{
+	width: 100px!important;
+}
+.tableFixHead thead th { 
+	position: sticky; 
+	top: 0; 
+	z-index: 1; 
+}
+.btn-report-print{
+	color: #fff!important;
+    border-color: #007bff!important;
+    background-color: #007bff!important;
+    box-shadow: none!important;
+}
+
+.btn-report-csv,.btn-report-csv:active,.btn-report-csv:hover,.btn-report-csv:focus,.btn-report-csv:visited{
+    color: #fff!important;
+    background-color: #6c757d!important;
+    border-color: #6c757d!important;
+    box-shadow: none!important;
+}
+.btn-report-pdf,.btn-report-pdf:active,.btn-report-pdf:hover,.btn-report-pdf:focus,.btn-report-pdf:visited{
+	color: #fff!important;
+    background-color: #17a2b8!important;
+    border-color: #17a2b8!important;
+    box-shadow: none!important;
+}
+.btn-report-back,.btn-report-back:active,.btn-report-back:hover,.btn-report-back:focus,.btn-report-back:visited{
+	color: #fff!important;
+    background-color: #dc3545!important;
+    border-color: #dc3545!important;
+    box-shadow: none!important;
+}
+
+.btn-outline-success{
+    background-color: #FFF!important;
+    border-width: 2px!important;
+    font-weight: bold!important;
+}
+
+.btn-success{
+    background-color: #0a822a!important;
+    border-color:  #0a822a!important;
+}
+
+.login-box{
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.user-img {
+    height: 30px!important;
+    width: auto!important;
+        border-radius: 50%;
+}
+
+.brand-link {
+	background-color:#141c2e!important;
+	/*color:#212529!important;*/
+        text-align: center!important;
+}
+.logo-xl.brand-image-xl{
+    max-height: 70px!important;
+    top:-8px!important;
+    left:25px!important
+}
+.sidebar-dark-primary{
+	background-color: #1f2a44!important;
+}
+
+.bg-urltile{
+    background-color: #1f2a44!important;
+    color:#FFF!important;
+}
+
+.sidebar-brand img{
+    height:70px;
+}
+select:disabled{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;   
+}
+
+.form-control:disabled,.form-control[readonly]{
+    background-color:#fafbfc!important;/*fafbfc*/#e9ecef
+    color: #1f2d3d!important;
+    border-color: #ced4da!important;
+    cursor: default;
+}
+
+.bg-apd-primary{
+    background-color: #2ad2c4!important;
+    color: #c2c7d0!important;
+}
+
+.text-apd-primary,.nav-sidebar .nav-item i{
+    color: #2ad2c4!important;
+}
+
+#breadcrumb_item_0{
+   background-color: #2ad2c4!important;
+   color: #c2c7d0!important;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+#breadcrumb_item_0 a{
+    color:#FFF;
+}
+
+.breadcrumb{
+    background-color: #FFF!important;
+    border:1px solid #2ad2c4!important;
+}
+
+.bg-tableheader,.btn-table-back{
+    background-color: #141c2e!important;
+    color: #c2c7d0!important;
+}
+.login-page{
+    background-color: #ebebeb!important; 
+}
+.login-card-body .input-group-text{
+     background-color: #1f2a44!important;
+     color: #FFF!important;
+     border-color: #1f2a44!important;
+}
+
+
+.login-card-body .btn{
+     background-color: #1f2a44!important;
+     color: #FFF!important;
+     border-color: #1f2a44!important;
+}
+
+.login-card-body .form-control{
+     background-color: #ebebeb!important;
+     border-color: #1f2a44!important;
+}
+
+.main-footer,.layout-header{
+   background-color: #1f2a44!important; 
+}
+.login-logo{
+    background-color: #1f2a44!important;
+    color: #FFF!important;
+}
+
+.login-card-body a{
+     color: #1f2a44!important;
+}
+
+.table-grid,.table-grid tr, .table-grid td{
+    border: 1px solid #dee2e6;
+}
+.table-grid th{
+    text-align: center!important;
+    vertical-align: middle!important;
+}
+.table-grid td{
+    background-color: #f8f9fa!important;
+}
+.table-grid thead,#table_view_datatable thead{
+    background-color: #141c2e!important;
+    color: #c2c7d0!important;
+}
+
+.card-header,.modal-header{
+    background-color: #2ad2c4!important;
+    color: #141c2e!important;
+}
+
+.card-info.card-outline {
+    border-top: 3px solid #2ad2c4!important;
+}
+
+
+.field-header{
+    font-weight: bold;
+}
+.field-value-editable{
+    background-color: #ffc107!important;
+}
+.field-header-items{
+    background-color: #dee2e6!important;
+}
+.field-value-items td{
+    border: 1px solid #dee2e6!important;
+}
+.card-header .btn-outline-danger{
+    background-color: #FFF!important;
+}
+element.style {
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+table thead th {
+  white-space: break-spaces;
+}
+
+table.dataTable.table-striped tr.odd .dtfc-fixed-left {
+    background-color: #F3F3F3;
+}
+table.dataTable.table-striped tr.even .dtfc-fixed-left {
+    background-color: white;
+}
+
+table.dataTable.table-striped th.dtfc-fixed-left {
+    background-color: white!important;
+}
+
+.paginate_button{
+    color: #1f2d3d !important;
+}
+
+.paginate_button.current,.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    background-color: #1f2d3d !important;
+    color: #FFF !important;
+}
+
+.paginate_button:hover,.paginate_button:active ,.dataTables_wrapper .dataTables_paginate .paginate_button:hover,.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+    color: #333!important;
+    background-color:#2ad2c4!important;
+    background: none;
+}
+
+.bg-apd{
+	color: #333 !important;
+    background-color:#2ad2c4!important;
+}
+
+.attedance_calendar_header{
+    background-color: #141c2e!important;
+    color: #c2c7d0!important;
+}

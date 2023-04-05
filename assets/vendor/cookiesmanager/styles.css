@@ -1,0 +1,16 @@
+.cookies_manager_bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(37,45,48,.6);
+    color:#FFF;
+    border-top: 1px solid #d9d9d9;
+    z-index: 9;
+    padding-bottom: 10px;
+}
+
+.cookies_manager_cfg_item{
+    background-color:#f8f9fa!important;
+    padding: .25rem;
+    position: relative;
+}

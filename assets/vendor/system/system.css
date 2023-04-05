@@ -1,0 +1,235 @@
+/*Fixed table with scrollable body*/
+.table-fixed {
+    overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+    max-height: 400px; /* gives an initial height of 200px to the table */
+}
+
+.table-fixed thead th {
+    position: sticky;
+    top: 0px;
+    background-color: #343a40;
+    color: #FFF;
+}
+/* end */
+
+/* Error elements */
+.error{
+    background-color:rgba(255, 0, 0, 0.3)!important;
+}
+
+/* end */
+
+
+.cur-pointer{
+    cursor: pointer;
+}
+.calendar, .timeview_calendar {
+  font-family: Arial, Helvetica, sans-serif!important;
+  border-collapse: collapse!important;
+  width: 100%!important;
+}
+
+.calendar th{
+	font-size: 11px!important;
+}
+
+
+.timeview_calendar_th{
+	background-color: #343a40;
+	color:#FFF;
+	border-style:solid;
+	border-color: #ebebeb;
+	border-width:1px 0px 1px 1px;
+	text-align: center;
+}
+
+.timeview_calendar_th p{
+	margin:auto;
+	font-weight: bold;
+}
+
+.timeview_calendar_td{
+	border-style:solid;
+	border-color: #ebebeb;
+	border-width:0px 0px 1px 1px;
+	padding-bottom:3px;
+}
+
+.timeview_calendar_td small{
+	font-size: 9px!important;
+	color:#343a40;
+}
+
+.calendar td{
+	font-size: 14px!important;
+	padding:5px!important;
+}
+
+.timeview_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.documents_subtext{
+    font-size: 80%;
+}
+
+.documents_subtext p{
+    padding:0px;
+    margin:2px;
+}
+
+.documents_subtext .value{
+    color:#c00;
+}
+
+.imgthumb {
+    display: block;
+    padding: 4px;
+    margin-bottom: 18px;
+    line-height: 1.428571429;
+    height:120px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-transition: border 0.2s ease-in-out;
+    -o-transition: border 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out;
+}
+
+.imgthumb > img, .imgthumb a > img {
+    display: block;
+    max-width: 100%;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border:0;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: .25rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
+
+.table-img{
+    width:60px;
+    height:100%;
+}
+
+.submenu .nav-item{
+    font-size: 14px!important;
+}
+
+.attedance_calendar_lbl{
+    height: calc(1.8125rem + 2px);
+    padding: .25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: 1px solid #ced4da;
+    box-shadow: inset 0 0 0 transparent;
+    background-color: #fff;
+}
+
+.attedance_calendar_table,.attedance_calendar_table td, .attedance_calendar_table th{
+    border:1px solid #dee2e6
+}
+.attedance_calendar_container .row{
+    border: 1px solid #dee2e6;
+    border-top:0px;
+}
+.attedance_calendar_container .col-2,.attedance_calendar_container .col-3,.attedance_calendar_container .col-1{
+    text-align:left;
+}
+
+.attedance_calendar_cells{
+    border-left: 1px solid #dee2e6;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.attedance_calendar_calrow{
+    height:80px!important;
+}
+
+.attedance_calendar_fullrow{
+    height:40px!important;
+    padding: 0px;
+}
+.attedance_calendar_cells_info{
+    border-left: 1px solid #dee2e6;
+    padding:0.5rem;
+}
+.attedance_calendar_cells_day{
+    font-size: 10px;
+}
+.attedance_calendar_cells a,.attedance_calendar_cells button{
+    margin-left: auto!important;
+    margin-bottom: auto!important;
+    margin-top: auto!important;
+    margin-right: auto!important;
+}
+
+.attedance_calendar_cells_disabled{
+    opacity: 0.5;
+    background-color: #dee2e6;
+    color:#97999c;
+}
+
+/* Hide scrollbar for Chrome, Safari, Opera,IE, Edge and Firefox */
+.transparent_scroll_y{
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.transparent_scroll_y::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    #form_container,.container-fluid,#form_container .card{
+        margin: 0px!important;
+        padding:0px!important;
+    }
+    #form_container .card-body{
+        padding:3px!important;
+    }
+}
+.print-pdf .field-value,.print-pdf .field-header{
+    padding: 0.50rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.print-pdf .table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+}
+
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+    .field-value,.field-header{
+            padding: 0.75rem;
+            vertical-align: top;
+            border-top: 1px solid #dee2e6;
+    }
+    .table{
+            width: 100%;
+            margin-bottom: 1rem;
+            color: #212529;
+            background-color: transparent;
+    }
+    .table-mileage-report tr{
+        border-bottom: 2px solid #dee2e6;
+    }
+    .page-break {page-break-after: always;}
+    
+    .breadcrumb
+    {
+        visibility: hidden;
+    }
+}
+

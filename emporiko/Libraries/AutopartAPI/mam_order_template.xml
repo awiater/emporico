@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="eBIS_MAM.xsl"?>
+<biztalk_1 xmlns="urn:schemas-biztalk-org:biztalk:biztalk_1">
+  <header>
+    <delivery>
+      <message />
+      <to>
+        <address />
+      </to>
+      <from>
+        <address />
+      </from>
+    </delivery>
+    <manifest>
+      <document>
+        <name>Order</name>
+        <description>OW Order</description>
+      </document>
+    </manifest>
+  </header>
+  <body>
+    <Order xmlns="urn:www.basda.org/schema/eBIS-XML_order_v3.00.xml">
+      <OrderHead>
+        <OriginatingSoftware>
+          <SoftwareProduct>MAM AutoPart</SoftwareProduct>
+        </OriginatingSoftware>
+        <OrderType Code="PUO" />
+        <Function Code="FIO" />
+      </OrderHead>
+      <OrderReferences>
+        <BuyersOrderNumber>P015440</BuyersOrderNumber>
+        <SuppliersOrderReference>011890</SuppliersOrderReference>
+      </OrderReferences>
+      <OrderDate>2022-07-08T13:14</OrderDate>
+      <Supplier>
+        <SupplierReferences>
+          <BuyersCodeForSupplier>GLOUCESTER</BuyersCodeForSupplier>
+        </SupplierReferences>
+      </Supplier>
+      <Buyer>
+        <BuyerReferences>
+          <SuppliersCodeForBuyer>DAN003</SuppliersCodeForBuyer>
+        </BuyerReferences>
+        <Party />
+        <Address />
+        <Contact>
+          <DDI />
+          <Email />
+        </Contact>
+      </Buyer>
+      <Delivery>
+        <DeliverTo>
+          <DeliverToReferences>
+            <BuyersCodeForDelivery>DAN003</BuyersCodeForDelivery>
+          </DeliverToReferences>
+          <Party />
+          <Address />
+          <Contact>
+            <DDI />
+            <Email />
+          </Contact>
+        </DeliverTo>
+        <DeliveryInformation>Method: backord</DeliveryInformation>
+      </Delivery>
+      <OrderLine>
+        <LineNumber>1</LineNumber>
+        <Product>
+          <BuyersProductCode>OC1291</BuyersProductCode>
+          <Description>Oil Filter - Spin On</Description>
+        </Product>
+        <Quantity>
+          <Amount>1</Amount>
+        </Quantity>
+        <Price>
+          <UnitPrice>0</UnitPrice>
+        </Price>
+        <OrderLineInformation />
+      </OrderLine>
+      <SpecialInstructions></SpecialInstructions>
+    </Order>
+  </body>
+</biztalk_1>
